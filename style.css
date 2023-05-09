@@ -1,0 +1,70 @@
+body{
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    width: 100%;
+    
+}
+
+.links__socials{
+    margin: 0;
+    padding: 3%;
+}
+
+.links__socials a{
+    box-sizing: border-box;
+    background-color: rgb(133, 224, 232);
+    text-decoration: none;
+    color: rgb(63, 124, 175);
+    padding: .7em;
+    border-radius: .2em;
+    font-size: 150%;
+}
+
+.burger_menu{
+    margin: 0;
+    padding: 3%;
+}
+
+.burger_menu a{
+    box-sizing: border-box;
+    background-color: rgb(133, 230, 232);
+    text-decoration: none;
+    color: rgb(49, 111, 162);
+    padding: .7em;
+    border-radius: .2em;
+    font-size: 150%;
+}
+
+.content{
+    display: flex;
+    padding: 3% 0%;
+}
+
+.content img{
+    object-fit: cover;
+    width: 70%;
+}
+
+.content p{
+    text-align: center;
+    font-size: 100%;
+}
+
+.content h1{
+    text-align: center;
+    font-size: 200%;
+}
+
